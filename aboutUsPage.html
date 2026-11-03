@@ -4,16 +4,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Lightbox CSS files. -->
+    <link rel="stylesheet" href="./public/lightbox2-2.12.0/src/css/lightbox.css">
+    <!-- Google's Material Design Symbols -->
+    <link href="./node_modules/material-symbols/index.css" rel="stylesheet">
+    <!-- Material Design Symbols fallback -->
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
     <!-- CSS (TailwindCSS) - CSS but better and faster for developers and users. -->
     <link rel="stylesheet" href="./public/css/output.css">
-    <!-- Google's Material Design Symbols -->
-    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
     <!-- Current Page Title -->
     <title>About Us - The Drain Surgeon</title>
 </head>
 
 <body>
-    <section id="EmergencyContactsSection" class="bg-red-600 text-white px-2 py-1 flex flex-row items-center justify-between">
+    <section id="EmergencyContactsSection"
+        class="bg-red-600 text-white px-2 py-1 flex flex-row items-center justify-between">
         <span>24/7 Emergency Service</span>
         <span class="flex flex-row flex-nowrap gap-x-2 items-center">
             <span class="material-symbols-outlined">location_on</span>
@@ -22,14 +28,14 @@
         <span>info@drainsurgeon.co.za</span>
         <span>(+27) 86 175 8623</span>
         <span id="SocialMediaLinksOne" class="flex flex-row flex-nowrap gap-x-2 items-center">
-            <a href="https://www.facebook.com/thedrainsurgeon">
+            <a href="https://www.facebook.com/thedrainsurgeon" target="_blank">
                 <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor"
                     class="bi bi-facebook" viewBox="0 0 16 16">
                     <path
                         d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951" />
                 </svg>
             </a>
-            <a href="https://www.instagram.com/thedrainsurgeonplumber/">
+            <a href="https://www.instagram.com/thedrainsurgeonplumber/" target="_blank">
                 <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor"
                     class="bi bi-instagram fill-white" viewBox="0 0 16 16">
                     <path
@@ -38,6 +44,273 @@
             </a>
         </span>
     </section>
+
+    <!-- Navbar Section -->
+    <section id="TopNavbar" class="flex flex-row items-center justify-between px-4 py-2">
+
+        <a class="" href="/homePage.html">
+            <img src="./public/images/[Cropped] drain-surgeon-logo.png"
+                alt="The Drain Surgeon Logo with a graphic of a surgeon wearing a face mask, headlight and holding a spanner."
+                class="h-14">
+        </a>
+
+        <nav class="flex flex-row flex-nowrap gap-2 *:p-4">
+            <a href="/homePage.html" id="HomeLink">Home</a>
+            <a href="/aboutUsPage.html" id="AboutUsLink"
+                class="border-b-2 border-b-red-600 text-gray-950 bg-gray-100 rounded-t-sm">About Us</a>
+            <a href="/contactUsPage.html" id="ContactUsLink">Contact Us</a>
+            <a href="/servicesPage.html" id="ServicesLink">Services</a>
+            <a href="/franchisingPage.html" id="FranchisingLink">Franchising</a>
+        </nav>
+
+        <a href="/bookNowPage.html" id="BookNowButton" class="px-4 py-3 bg-red-600 text-white rounded-sm">Book Now</a>
+
+    </section>
+
+    <section id="AboutUsSection" class="p-8">
+        <div id="AboutUs" class="flex flex-row gap-x-4 items-center">
+            <span class="material-symbols-outlined text-5xl p-2 bg-red-600 rounded-lg text-gray-900">handyman</span>
+            <h1 class="text-[52px] font-medium">About Us</h1>
+        </div>
+    </section>
+
+    <section id="WhoWeAreSection">
+        <div id="WhoWeAre" class="grid justify-center">
+            <div class="max-w-5xl grid grid-cols-2 grid-rows-1 gap-x-8">
+                <div id="WhoWeAre-Image" class="aspect-square p-4 rounded-xl h-128">
+                    <a href="./public/images/man-installs-heating-system-house-checks-pipes-with-wrench.jpg"
+                        data-lightbox="aboutUsPage"
+                        data-caption="A man installs a heating system inside a house; checks pipes with wrench in hand.">
+                        <img src="./public/images/man-installs-heating-system-house-checks-pipes-with-wrench.jpg"
+                            alt="Man installs heating system in house, checks pipes with wrench"
+                            class="w-full h-full object-cover rounded-xl">
+                    </a>
+                </div>
+                <div id="WhoWeAre-Text" class="grid items-center">
+                    <div id="WhoWeAre-TextContainer" class="flex flex-col gap-y-4">
+                        <h2 class="text-4xl font-medium">Who we are</h2>
+                        <p class="text-[18px]">
+                            The Drain Surgeon is a professional plumbing and drainage specialist dedicated to providing
+                            reliable
+                            solutions for homes and businesses across South Africa. With a focus on emergency plumbing
+                            and
+                            drain-related problems, our experienced teams are available around the clock to help
+                            customers
+                            get
+                            their plumbing systems back in working order.
+                        </p>
+                        <p class="text-[18px]">
+                            From blocked drains and leaking pipes to geyset repairs and advanced drain inspections, we
+                            combine professional expertise with practical solutions to tackle plumbing problems
+                            efficiently.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="OurServicesSection">
+        <div id="OurServices" class="grid justify-center">
+            <div class="max-w-5xl grid grid-cols-2 grid-rows-1 gap-x-8">
+                <div id="OurServices-Text" class="grid items-center">
+                    <div id="OurServices-TextContainer" class="flex flex-col gap-y-4">
+                        <h2 class="text-4xl font-medium">Our Services</h2>
+                        <p class="text-[18px]">We provide a comprehensive range of plumbing and drainage services,
+                            including 24-hour emergency
+                            plumbing,
+                            blocked-drain solutions, geyser repairs and replacements, electronic leak detection, burst
+                            and
+                            leaking
+                            pipe repairs, CCTV camera drain inspections, high-pressure jetting, septic tanks and French
+                            drains.</p>
+                        <p class="text-[18px]">Our aim is to provide customers with a convenient service that addresses
+                            the problem while
+                            helping
+                            identify its underlying cause.</p>
+                    </div>
+                </div>
+                <div id="OurServices-Image" class="aspect-square p-4 rounded-xl h-128">
+                    <a href="./public/images/plumber-man-fixing-kitchen-sink_53876-146118.jpg"
+                        data-lightbox="aboutUsPage" data-caption="Plumber fixing a kitchen sink.">
+                        <img src="./public/images/plumber-man-fixing-kitchen-sink_53876-146118.jpg"
+                            class="w-full h-full object-cover rounded-xl">
+                    </a>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="OurCommitmentSection">
+        <div id="OurCommitment" class="grid justify-center">
+            <div class="max-w-5xl grid grid-cols-2 grid-rows-1 gap-x-8">
+                <div id="OurCommitment-Image" class="aspect-square p-4 rounded-xl h-128">
+                    <a href="./public/images/Plumber holding a plunger.jpg" data-lightbox="aboutUsPage" data-caption="Plumber holding a plunger.">
+                        <img src="./public/images/Plumber holding a plunger.jpg" alt=""
+                            class="w-full h-full object-cover rounded-xl">
+                    </a>
+                </div>
+                <div id="OurCommitment-Text" class="grid items-center">
+                    <div id="OurCommitment-TextContainer" class="flex flex-col gap-y-4">
+                        <h2 class="text-4xl font-medium">Our Commitment</h2>
+                        <p class="text-[18px]">
+                            We believe that professional plumbing services should be reliable, responsive, and
+                            accessible
+                            when
+                            customers need them most. Our 24-hour emergency service is designed to provide assistance
+                            day or
+                            night,
+                            while our trained and security-cleared plumbers give customers confidence when inviting a
+                            professional
+                            into their homes or businesses.
+                        </p>
+                        <p class="text-[18px]">
+                            At the Drain Surgeon, we are commited to delivering practical solutions, professional
+                            service,
+                            and a
+                            positive customer experience from the initial call through to the completion of the job.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="WhyChooseTheDrainSurgeonSection" class="p-8">
+        <div id="WhyChooseTheDrainSurgeon" class="grid justify-center p-8 bg-gray-950 text-white rounded-xl">
+            <div class="max-w-5xl">
+                <div class="flex flex-col gap-y-4">
+                    <h2 class="text-4xl font-medium">Why Choose the Drain Surgeon?</h2>
+                    <ul class="text-2xl">
+                        <li>24-hour emergency plumbing services.</li>
+                        <li>Experienced and security-cleared plumbers.</li>
+                        <li>Professional drain and plumbing solutions.</li>
+                        <li>Advanced diagnostic services such as electronic leak detection and CCTV drain inspections.
+                        </li>
+                        <li>Services for both residential and commercial customers.</li>
+                        <li>A 24-hour manned call centre for customer assistance.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="OurGoalSection">
+        <div id="OurGoal" class="grid justify-center p-8">
+            <div class="max-w-5xl flex flex-col gap-y-4">
+                <h2 class="text-4xl font-medium">Our Goal</h2>
+                <p class="text-[18px]">Our goal is simple: <b>to provide dependable plumbing and drainage solutions
+                        when South Africans need
+                        them the most.</b></p>
+                <p class="text-[18px]">Whether it is an unexpected blocked drain, a leaking pipe, a geyser problem,
+                    or a more complex drainage
+                    issue, The Drain Surgeon is there to help diagnose the problem and provide an effective
+                    solution.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="FooterSection" class="bg-gray-950 text-white p-8">
+        <footer id="Fotter-Container" class="grid grid-cols-4 grid-rows-1 gap-x-12">
+            <div id="FooterContent">
+                <div id="TheDrainSurgeonLogo" class="flex flex-col gap-y-2">
+                    <img src="./public/images/[Cropped] drain-surgeon-logo.png" alt="The Drain Surgeon Logo"
+                        class="w-52">
+                    <p>"Any leak, burst pipe, or drain replacement, we are there for you." - The Drain Surgeon</p>
+                </div>
+            </div>
+
+            <div id="InternalLinks" class="flex flex-col gap-y-2">
+                <!-- Links not found at the top of the website. -->
+                <a href="/blog">Blog</a>
+                <a href="/videoTutorials">Video tutorials</a>
+                <a href="/pressKit">Press Kit</a>
+                <a href="/howItWorks">How It Works</a>
+                <a href="/privacyPolicy">Privacy Policy</a>
+                <a href="/termsOfService">Terms Of Service</a>
+            </div>
+            </div>
+
+            <div id="ExternalLinks" class="flex flex-col gap-y-2">
+                <div id="SocialMediaLinks" class="flex flex-col gap-y-2">
+                    <!-- Facebook Link -->
+                    <a href="https://www.facebook.com/thedrainsurgeon" target="_blank"
+                        class="flex flex-row items-center flex-nowrap gap-x-2">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                            class="bi bi-facebook w-5 h-5" viewBox="0 0 16 16">
+                            <path
+                                d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951" />
+                        </svg>
+                        <p class="mb-0.5">The Drain Surgeon Plumber</p>
+                    </a>
+                    <!-- Instagram Link -->
+                    <a href="https://www.instagram.com/thedrainsurgeonplumber/" target="_blank"
+                        class="flex flex-row items-center gap-x-2">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                            class="bi bi-instagram w-5 h-5" viewBox="0 0 16 16">
+                            <path
+                                d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.9 3.9 0 0 0-1.417.923A3.9 3.9 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.9 3.9 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.9 3.9 0 0 0-.923-1.417A3.9 3.9 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599s.453.546.598.92c.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.5 2.5 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.5 2.5 0 0 1-.92-.598 2.5 2.5 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233s.008-2.388.046-3.231c.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92s.546-.453.92-.598c.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92m-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217m0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334" />
+                        </svg>
+                        <p class="mb-0.5">@thedrainsurgeonplumber</p>
+                    </a>
+                </div>
+
+                <div id="Email" class="flex flex-row items-center gap-x-2">
+                    <span class="material-design-symbols"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                            height="24px" width="24px" fill="#FFFFFF">
+                            <path
+                                d="M4,20q-0.82,0-1.41-0.59T2,18V6Q2,5.18 2.59,4.59T4,4H20q0.83,0 1.41,0.59Q22,5.18 22,6V18q0,0.82-0.59,1.41T20,20H4Zm8-7L4,8V18H20V8l-8,5Zm0-2l8-5H4l8,5ZM4,8V6V8V18V8Z" />
+                        </svg></span>
+                    <p class="mb-0.5">info@drainsurgeon.co.za</p>
+                </div>
+
+                <div id="EmergencyPhoneNumber" class="flex flex-row items-start gap-x-2">
+                    <span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" height="24px" width="24px"
+                            fill="#FFFFFF" class="mt-0.5">
+                            <path
+                                d="M10.5,17q-0.82,0-1.41-0.59T8.5,15V9q0-0.83 0.59-1.41T10.5,7h3q0.83,0 1.41,0.59T15.5,9v6q0,0.82-0.59,1.41T13.5,17h-3ZM1,17V15H5V13H3q-0.82,0-1.41-0.59T1,11V9Q1,8.17 1.59,7.59T3,7H7V9H3v2H5q0.83,0 1.41,0.59Q7,12.18 7,13v2q0,0.82-0.59,1.41T5,17H1Zm16,0V15h4V13H19q-0.82,0-1.41-0.59T17,11V9q0-0.83 0.59-1.41T19,7h4V9H19v2h2q0.83,0 1.41,0.59Q23,12.18 23,13v2q0,0.82-0.59,1.41T21,17H17Zm-6.5-2h3V9h-3v6Z" />
+                        </svg></span>
+                    <p class="">+27 86 175 8623 (For Emergencies in Pretoria)</p>
+                </div>
+
+                <div id="AppLinks" class="flex flex-row gap-x-2">
+                    <!-- Google Play Link -->
+                    <a href="/googlePlaystoreLink" target="_blank">
+                        <img src="./public/logos/GetItOnGooglePlay_Badge_Web_color_English.svg"
+                            alt="Google Play Badge Link" class="h-8">
+                    </a>
+                    <!-- Apple App Store Link -->
+                    <a href="https://apps.apple.com/za/app/the-surgeon-group/id1441305561" target="_blank">
+                        <img src="./public/logos/Download_on_the_App_Store_Badge_US-UK_RGB_blk_092917.svg"
+                            alt="Apple App Store Badge Link" class="h-8">
+                    </a>
+                </div>
+            </div>
+
+            <div id="OperatingTimes">
+                <ul>
+                    <li></li>
+                </ul>
+
+                <div class="flex flex-col gap-y-2">
+                    <p>Copyright © 2026 - The Drain Surgeon</p>
+                    <span>Created By Oarabile Pako Tone - ST10317311 - Rosebank International (RI)</span>
+                </div>
+            </div>
+
+
+
+
+            <div>
+
+        </footer>
+    </section>
+
+    <!-- JQuery javascript file. -->
+    <script src="./public/js/jquery-4.0.0.js"></script>
+    <!-- Lightbox Javascript file. -->
+    <script src="./public/lightbox2-2.12.0/src/js/lightbox.js"></script>
 </body>
 
 </html>
