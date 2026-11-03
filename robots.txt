@@ -1,0 +1,4 @@
+User-agent: *
+User-agent: Adsbot
+Disallow: ./public
+Disallow: ./node_modules
