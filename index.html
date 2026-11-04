@@ -1,0 +1,552 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Note. Your CSS files must always take last priority on the header so that it does not get overrridden by other style documents like your Material Design Symbols file. -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Lightbox CSS files. -->
+    <link rel="stylesheet" href="./public/lightbox2-2.12.0/src/css/lightbox.css">
+    <!-- Google's Material Design Symbols -->
+    <link href="./node_modules/material-symbols/index.css" rel="stylesheet">
+    <!-- Material Design Symbols fallback -->
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+    <!-- CSS (TailwindCSS) - CSS but better and faster for developers and users. -->
+    <link rel="stylesheet" href="./public/css/output.css">
+    <!-- Current Page Title -->
+    <title>Home - The Drain Surgeon</title>
+</head>
+
+<body>
+    <!-- Emergency Contacts Section -->
+    <section id="EmergencyContactsSection"
+        class="bg-red-600 text-white px-2 py-1 flex flex-row items-center justify-between">
+        <span>24/7 Emergency Service</span>
+        <span class="flex flex-row flex-nowrap gap-x-2 items-center">
+            <span class="material-symbols-outlined text-2xl">location_on</span>
+            <span class="">350 Jan Shoba St, Hatfield, Pretoria, 0083</span>
+        </span>
+        <span>info@drainsurgeon.co.za</span>
+        <span>(+27) 86 175 8623</span>
+        <span id="SocialMediaLinksOne" class="flex flex-row flex-nowrap gap-x-2 items-center">
+            <a href="https://www.facebook.com/thedrainsurgeon" target="_blank">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor"
+                    class="bi bi-facebook" viewBox="0 0 16 16">
+                    <path
+                        d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951" />
+                </svg>
+            </a>
+            <a href="https://www.instagram.com/thedrainsurgeonplumber/" target="_blank">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor"
+                    class="bi bi-instagram fill-white" viewBox="0 0 16 16">
+                    <path
+                        d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.9 3.9 0 0 0-1.417.923A3.9 3.9 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.9 3.9 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.9 3.9 0 0 0-.923-1.417A3.9 3.9 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599s.453.546.598.92c.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.5 2.5 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.5 2.5 0 0 1-.92-.598 2.5 2.5 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233s.008-2.388.046-3.231c.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92s.546-.453.92-.598c.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92m-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217m0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334" />
+                </svg>
+            </a>
+        </span>
+    </section>
+
+    <!-- Navbar Section -->
+    <section id="TopNavbar" class="flex flex-row items-center justify-between px-4 py-2">
+
+        <a class="" href="/homePage.html">
+            <img src="./public/images/[Cropped] drain-surgeon-logo.png"
+                alt="The Drain Surgeon Logo with a graphic of a surgeon wearing a face mask, headlight and holding a spanner."
+                class="h-14">
+        </a>
+
+        <nav class="flex flex-row flex-nowrap gap-2 *:p-4">
+            <a href="/homePage.html" id="HomeLink"
+                class="border-b-2 border-b-red-600 text-gray-950 bg-gray-100 rounded-t-sm">Home</a>
+            <a href="/aboutUsPage.html" id="AboutUsLink">About Us</a>
+            <a href="/contactUsPage.html" id="ContactUsLink">Contact Us</a>
+            <a href="/servicesPage.html" id="ServicesLink">Services</a>
+            <a href="/franchisingPage.html" id="FranchisingLink">Franchising</a>
+        </nav>
+
+        <a href="/bookNowPage.html" id="BookNowButton" class="px-4 py-3 bg-red-600 text-white rounded-sm">Book Now</a>
+
+    </section>
+
+    <!-- Hero Section -->
+    <section id="HeroSection" class="grid justify-center">
+        <div class="max-w-5xl grid grid-cols-2 grid-rows-1 gap-x-8">
+
+            <!-- Hero Section Image -->
+            <div id="HeroSection_ImageContainer" class="p-4 aspect-square rounded-xl">
+                <a href="./public/images/plumber_in_red_uniform.webp" data-lightbox="image-home" data-title="A Drain Surgeon Plumber in red uniform.">
+                    <img src="./public/images/plumber_in_red_uniform.webp"
+                        alt="A picture of plumbers standing next to each other in a row"
+                        class="w-full h-full object-cover rounded-xl">
+                </a>
+            </div>
+
+            <!-- Hero Section Text -->
+            <div id="HeroSection_Text" class="p-4 grid items-center">
+                <div id="TextContainer" class="flex flex-col gap-y-4">
+                    <aside class="flex flex-col gap-y-4">
+                        <div
+                            class="bg-red-600 text-white px-8 py-4 text-xl max-[960px]:text-lg max-[960px]:px-4 max-[960px]:py-2 font-medium rounded-full inline-flex flex-row flex-nowrap grow-0 items-center gap-x-2">
+                            <span class="material-symbols-outlined text-2xl">location_on</span>
+                            <p>Available in over 50 locations</p>
+                        </div>
+
+                        <h1 id="HeroTitle" class="text-5xl font-medium max-[960px]:text-4xl">
+                            We repair broken pipes for residential and commercial buildings
+                            <!-- We are the drain and pipe specialists. -->
+                        </h1>
+
+                        <i id="HeroSubtitle" class="font-medium">
+                            "Any leak, burst pipe, drain replacement, we are there for you." - The Drain Surgeon
+                        </i>
+                    </aside>
+
+                    <!-- Hero Call-to-Action Buttons -->
+                    <div id="HeroButtons" class="flex flex-row items-center gap-x-4">
+                        <a id="ServicesButton" href="/servicesPage.html"
+                            class="border-2 px-8 py-4 rounded-sm">Services</a>
+                        <a id="BookNowButton" href="/bookNowPage.html"
+                            class="border-2 border-red-600 bg-red-600 text-red-50 px-8 py-4 rounded-sm">Book Now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Our Services Section -->
+    <section id="OurServicesSection" class="bg-gray-950 *:text-white flex flex-col gap-y-8 p-8">
+        <div class="flex flex-row gap-x-4 items-center">
+            <span class="material-symbols-outlined text-5xl p-2 bg-red-600 rounded-lg text-gray-900">handyman</span>
+            <h2 id="ServicesTitle" class="text-5xl">Our Services</h2>
+        </div>
+
+
+        <ul class="grid grid-cols-2 items-start gap-y-2 text-2xl">
+            <li>General 24-hour plumbing.</li>
+            <li>Geyser repairs and replacements.</li>
+            <li>Unclogging and cleaning of blocked drains.</li>
+            <li>Electornic leak detection</li>
+            <li>Repairs and replacements on burst and leak pipes.</li>
+            <li>Using CCTV Camera Drain Inspections.</li>
+            <li>Repair and cleaning of Septic Tanks and French Drains.</li>
+        </ul>
+
+        <div id="OurServicesCTA" class="flex flex-row gap-x-4 self-end">
+            <a href="/seeMorePage.html" class="border-2 px-8 py-4 rounded-sm">See More</a>
+            <a href="/bookNowPage.html" class="bg-red-600 px-8 py-4 rounded-sm">Book Now</a>
+        </div>
+
+    </section>
+
+    <!-- Customer Reviews Section -->
+    <section id="CustomerReviewsSection" class="p-8 flex flex-col gap-y-8">
+        <div class="flex flex-row items-center gap-x-8">
+            <span class="material-symbols-outlined text-5xl p-2 bg-gray-950 rounded-lg text-red-600">thumb_up</span>
+            <h2 class="text-5xl mb-1">What Our Customers Say</h2>
+        </div>
+
+        <div id="GridOfCustomerReviews" class="grid grid-cols-3 grid-rows-1 gap-x-8">
+            <!-- This card is to be repeated three times across in the x-axis of the web page. -->
+            <article id="CustomerReviewCardOne" class="bg-gray-200 rounded-2xl px-8 py-6 flex flex-col gap-y-4">
+                <span id="DateOfReviewPosted" class="self-end">12 July 2026</span>
+                <div class="flex flex-row items-start gap-x-2">
+                    <span class="material-symbols-outlined text-5xl">account_circle</span>
+                    <div>
+                        <p class="font-medium">John Doe</p>
+                        <p class="font-medium">Pretoria</p>
+                    </div>
+                </div>
+
+                <p>Excellent plumbing service—quick, professional, and reliable. The plumber arrived on time, clearly
+                    explained the issue, and completed the work efficiently. I’m very satisfied with the service and
+                    would gladly recommend this company.</p>
+
+                <div id="Stars" class="py-2">
+                    <span class="material-symbols-outlined icon-fill">star</span>
+                    <span class="material-symbols-outlined icon-fill">star</span>
+                    <span class="material-symbols-outlined icon-fill">star</span>
+                    <span class="material-symbols-outlined icon-fill">star</span>
+                    <span class="material-symbols-outlined">star_half</span>
+                    <span>4.5/5</span>
+                </div>
+            </article>
+
+            <article id="CustomerReviewCardTwo" class="bg-gray-200 rounded-2xl px-8 py-6 flex flex-col gap-y-4">
+                <span id="DateOfReviewPosted" class="self-end">12 July 2026</span>
+                <div class="flex flex-row items-start gap-x-2">
+                    <span class="material-symbols-outlined text-5xl">account_circle</span>
+                    <div>
+                        <p class="font-medium">John Doe</p>
+                        <p class="font-medium">Pretoria</p>
+                    </div>
+                </div>
+
+                <p>Excellent plumbing service—quick, professional, and reliable. The plumber arrived on time, clearly
+                    explained the issue, and completed the work efficiently. I’m very satisfied with the service and
+                    would gladly recommend this company.</p>
+
+                <div id="Stars" class="py-2">
+                    <span class="material-symbols-outlined icon-fill">star</span>
+                    <span class="material-symbols-outlined icon-fill">star</span>
+                    <span class="material-symbols-outlined icon-fill">star</span>
+                    <span class="material-symbols-outlined icon-fill">star</span>
+                    <span class="material-symbols-outlined">star_half</span>
+                    <span>4.5/5</span>
+                </div>
+            </article>
+
+            <article id="CustomerReviewCardThree" class="bg-gray-200 rounded-2xl px-8 py-6 flex flex-col gap-y-4">
+                <span id="DateOfReviewPosted" class="self-end">12 July 2026</span>
+                <div class="flex flex-row items-start gap-x-2">
+                    <span class="material-symbols-outlined text-5xl">account_circle</span>
+                    <div>
+                        <p class="font-medium">John Doe</p>
+                        <p class="font-medium">Pretoria</p>
+                    </div>
+                </div>
+
+                <p>Excellent plumbing service—quick, professional, and reliable. The plumber arrived on time, clearly
+                    explained the issue, and completed the work efficiently. I’m very satisfied with the service and
+                    would gladly recommend this company.</p>
+
+                <div id="Stars" class="py-2">
+                    <span class="material-symbols-outlined icon-fill">star</span>
+                    <span class="material-symbols-outlined icon-fill">star</span>
+                    <span class="material-symbols-outlined icon-fill">star</span>
+                    <span class="material-symbols-outlined icon-fill">star</span>
+                    <span class="material-symbols-outlined">star_half</span>
+                    <span>4.5/5</span>
+                </div>
+            </article>
+        </div>
+
+        <div class="flex flex-row items-baseline-last justify-between">
+            <aside id="HelloPeterRating">
+                <a href="/HelloPeterReview" class="inline-flex flex-row items-center gap-x-4 p-2">
+                    <img src="./public/images/[Cropped] drain-surgeon-logo.png" alt="The Drain Surgeon Logo"
+                        class="h-14">
+                    <hr id="vr" class="border-2 border-mist-400 w-0 h-10">
+                    </hr>
+
+                    <div id="Rating">
+                        <img src="./public/images/HelloPeter_Logo.png" alt="HelloPeter Logo" class="h-8">
+                        <p>HelloPeter rating</p>
+                        <div id="Stars" class="py-2">
+                            <span class="material-symbols-outlined icon-fill p-1 text-white bg-green-600">star</span>
+                            <span class="material-symbols-outlined icon-fill p-1 text-white bg-green-600">star</span>
+                            <span class="material-symbols-outlined icon-fill p-1 text-white bg-green-600">star</span>
+                            <span class="material-symbols-outlined icon-fill p-1 text-white bg-green-600">star</span>
+                            <span class="material-symbols-outlined p-1 text-white bg-green-600">star_half</span>
+                            <span class="pl-2">4.2/5</span>
+                        </div>
+                    </div>
+                </a>
+            </aside>
+
+            <aside class="flex flex-row items-center gap-x-4">
+                <a href="/seeMorePage.html" class="border-2 px-8 py-4 rounded-sm">See More</a>
+                <a href="/bookNowPage.html"
+                    class="border-2 border-red-600 bg-red-600 px-8 py-4 rounded-sm text-white">Book Now</a>
+            </aside>
+        </div>
+    </section>
+
+    <!-- Our Branches Section -->
+    <section id="OurBranchesSection" class="bg-gray-950 *:text-white p-8 grid min-h-[80vh]">
+        <div class="flex flex-row items-center gap-x-8">
+            <img src="./public/images/[Transparent] The Drain Surgeon Logo Transparent.png" alt=""
+                class="size-16 p-2 bg-red-600/15 rounded-lg">
+            <h2 class="text-5xl mb-1">Our Branches</h2>
+        </div>
+
+        <aside class="grid justify-center">
+            <div class="grid grid-cols-2 grid-rows-1 max-w-5xl gap-x-4 mt-8 items-start">
+                <div id="ProvincesAndLocations" class="col-span-1 row-span-1">
+                    <div id="Provinces" class="flex flex-row flex-wrap gap-2">
+                        <button class="text-nowrap px-3 py-2 bg-red-600 text-gray-950 rounded-full">Gauteng</button>
+                        <button
+                            class="text-nowrap px-3 py-2 bg-red-600/15 text-red-600 rounded-full">Mpumalanga</button>
+                        <button class="text-nowrap px-3 py-2 bg-red-600/15 text-red-600 rounded-full">Western
+                            Cape</button>
+                        <button class="text-nowrap px-3 py-2 bg-red-600/15 text-red-600 rounded-full">Free
+                            State</button>
+                        <button class="text-nowrap px-3 py-2 bg-red-600/15 text-red-600 rounded-full">Limpopo</button>
+                        <button class="text-nowrap px-3 py-2 bg-red-600/15 text-red-600 rounded-full">Eastern
+                            Cape</button>
+                        <button class="text-nowrap px-3 py-2 bg-red-600/15 text-red-600 rounded-full">North
+                            West</button>
+                    </div>
+                    <div id="Locations" class="flex flex-col items-start gap-y-2 mt-8">
+                        <button>Pretoria</button>
+                        <button>Johannesburg</button>
+                        <button>Midrand</button>
+                        <button>Vanderbijilpark</button>
+                        <button>Meyerton</button>
+                        <button>Vereeniging</button>
+                        <button>Randvaal</button>
+                        <button>Krugersdorp</button>
+                        <button>Roodepoort</button>
+                        <button>Soweto</button>
+                        <button>Westrand</button>
+                        <button>Benoni</button>
+                    </div>
+                </div>
+                <div id="DirectionsAndMap" class="grid grid-cols-1 grid-rows-[1fr_auto] gap-y-8 h-full">
+                    <div id="Map" class="bg-red-600/15 w-full h-full rounded-4xl grid items-center justify-center">
+                        <!-- <img src="/selectedLocationScreenshot"
+                        alt="A selected location revealing a screenshot map of the location."> -->
+                        <div id="TemporaryPlaceholderForMap" class="flex flex-col items-center">
+                            <span class=material-symbols-outlined>location_on</span>
+                            <p>Map</p>
+                            <p>(Shows selected location)</p>
+                        </div>
+                    </div>
+                    <div id="Directions">
+                        <div class="flex flex-row items-center">
+                            <span class="material-symbols-outlined">location_on</span>
+                            <span>[building number] [street name] [suburb] city] [province] [postal code]</span>
+                        </div>
+                        <p>[phone number one] (primary)</p>
+                        <p>E-mail</p>
+                    </div>
+                </div>
+            </div>
+        </aside>
+
+    </section>
+
+    <!-- Businesses we Worked With Section -->
+    <section id="BusinessesWeWorkedWithSection" class="gap-y-8 p-8">
+        <div class="flex flex-row items-center gap-x-8">
+            <span
+                class="material-symbols-outlined text-5xl p-2 bg-gray-950 rounded-lg text-red-600">corporate_fare</span>
+            <h2 class="text-5xl mb-1">Businesses We Worked With</h2>
+        </div>
+
+        <aside class="grid grid-cols-5 row-auto items-center justify-center gap-12 m-12">
+            <a href="">
+                <img src="./public/logos/McDonald's_Symbol_1.png" alt="McDonald's Logo">
+            </a>
+            <a href="">
+                <img src="./public/logos/PPC_id6Voo2M-g_0.png" alt="">
+            </a>
+            <a href="">
+                <img src="./public/logos/Bidvest_Bank_id-jNEIkJS_0.png" alt="">
+            </a>
+            <a href="">
+                <img src="./public/logos/Transnet-Logo.png" alt="">
+            </a>
+            <a href="">
+                <img src="./public/logos/Cosmopolitan-logo.png" alt="">
+            </a>
+            <a href="">
+                <img src="./public/logos/trafalgar-logo.svg" alt="">
+            </a>
+            <a href="">
+                <img src="./public/logos/Huurkor-logo.jpg" alt="">
+            </a>
+            <a href="">
+                <img src="./public/logos/Coca-Cola_Logo_1.png" alt="">
+            </a>
+            <a href="">
+                <img src="./public/logos/Nestlé_Logo_1.png" alt="">
+            </a>
+            <a href="">
+                <img src="./public/logos/Woolworths_SA_idRYJEOZuI_1.png" alt="">
+            </a>
+        </aside>
+    </section>
+
+    <!-- Our Other Services Section -->
+    <section id="OurOtherServicesSection" class="bg-gray-950 p-8">
+        <div class="flex flex-row items-center gap-x-8">
+            <span
+                class="material-symbols-outlined text-5xl p-2 bg-red-600 rounded-lg text-gray-950">home_repair_service</span>
+            <h2 class="text-5xl mb-1 text-white">Our Other Services</h2>
+        </div>
+        <aside class="grid justify-center text-white mt-8">
+            <div class="w-6xl grid grid-cols-[1fr_auto_1fr_auto_1fr] gap-x-16 justify-evenly">
+                <article class="grid gap-y-2 items-start">
+                    <div class="flex flex-row items-center gap-x-4">
+                        <span
+                            class="material-symbols-outlined bg-gray-950 text-red-600 border-2 border-red-600 p-4 rounded-2xl text-4xl">
+                            plumbing
+                        </span>
+                        <h3 class="text-2xl font-medium">The Drain Surgeon</h3>
+                    </div>
+
+                    <div>
+                        <p>Plumbing, drainage cleaning and repairs.</p>
+                    </div>
+
+                </article>
+                <hr id="vr" class="border-2 border-mist-400 w-0 h-full">
+                <article class="grid gap-y-2 items-start">
+                    <div class="flex flex-row items-center gap-x-4">
+                        <span
+                            class="material-symbols-outlined bg-gray-950 text-red-600 border-2 border-red-600 p-4 rounded-2xl text-4xl">
+                            bolt
+                        </span>
+                        <h3 class="text-2xl font-medium">The Electro Surgeon</h3>
+                    </div>
+                    <div class="">
+                        <p>Electrical repairs and component replacements for households and businesses.</p>
+                    </div>
+                </article>
+                <hr id="vr" class="border-2 border-mist-400 w-0 h-full">
+                <article class="grid gap-y-2 items-start">
+                    <div class="flex flex-row items-center gap-x-4">
+                        <span
+                            class="material-symbols-outlined bg-gray-950 text-red-600 border-2 border-red-600 p-4 rounded-2xl text-4xl">
+                            ac_unit
+                        </span>
+                        <h3 class="text-2xl font-medium">The Aircon Surgeon</h3>
+                    </div>
+                    <p>Climate control and cooling specialists.</p>
+                </article>
+            </div>
+        </aside>
+    </section>
+
+    <!-- Upcoming Franchises Section -->
+    <section id="UpComingFranchisesSection">
+        <div class="flex flex-row items-center gap-x-8 p-8">
+            <span class="material-symbols-outlined text-5xl p-2 rounded-lg text-red-600 bg-gray-950">add_business</span>
+            <h2 class="text-5xl">Upcoming franchises</h2>
+        </div>
+        <div class="grid justify-center p-8">
+            <aside id="FranchiseList" class="grid grid-cols-4 gap-4">
+                <a href="" class="flex flex-row flex-nowrap text-nowrap items-center justify-center gap-x-2 px-4 py-2 bg-gray-200 rounded">
+                    <span class="material-symbols-outlined text-xl">solar_power</span>
+                    <h5 class="text-xl">The Solar Surgeon</h5>
+                </a>
+                <a href="" class="flex flex-row flex-nowrap text-nowrap items-center justify-center gap-x-2 px-4 py-2 bg-gray-200 rounded">
+                    <span class="material-symbols-outlined text-xl">pest_control</span>
+                    <h5 class="text-xl">The Pest Control Surgeon</h5>
+                </a>
+                <a href="" class="flex flex-row flex-nowrap text-nowrap items-center justify-center gap-x-2 px-4 py-2 bg-gray-200 rounded">
+                    <span class="material-symbols-outlined text-xl">blender</span>
+                    <h5 class="text-xl">The Appliance Surgeon</h5>
+                </a>
+                <a href="" class="flex flex-row flex-nowrap text-nowrap items-center justify-center gap-x-2 px-4 py-2 bg-gray-200 rounded">
+                    <span class="material-symbols-outlined text-xl">pool</span>
+                    <h5 class="text-xl">The Pool Surgeon</h5>
+                </a>
+                <a href="" class="flex flex-row flex-nowrap text-nowrap items-center justify-center gap-x-2 px-4 py-2 bg-gray-200 rounded">
+                    <span class="material-symbols-outlined text-xl">park</span>
+                    <h5 class="text-xl">The Tree Felling Surgeon</h5>
+                </a>
+                <a href="" class="flex flex-row flex-nowrap text-nowrap items-center justify-center gap-x-2 px-4 py-2 bg-gray-200 rounded">
+                    <span class="material-symbols-outlined text-xl">vacuum</span>
+                    <h5 class="text-xl">The Cleaning Surgeon</h5>
+                </a>
+                <a href="" class="flex flex-row flex-nowrap text-nowrap items-center justify-center gap-x-2 px-4 py-2 bg-gray-200 rounded">
+                    <span class="material-symbols-outlined text-xl">service_toolbox</span>
+                    <h5 class="text-xl">The Handyman Surgeon</h5>
+                </a>
+                <a href="" class="flex flex-row flex-nowrap text-nowrap items-center justify-center gap-x-2 px-4 py-2 bg-gray-200 rounded">
+                    <span class="material-symbols-outlined text-xl">roofing</span>
+                    <h5 class="text-xl">The Roofing Surgeon</h5>
+                </a>
+            </aside>
+        </div>
+    </section>
+
+    <section id="CallToActionSection" class="grid justify-center text-center bg-gray-950 p-8 text-white gap-y-2">
+        <h1 class="text-4xl">Get a quote for your drainage and plumbing needs.</h1>
+        <p>We are available 24/7.</p>
+
+        <div class="mt-4">
+            <a href="/booknowPage.html" class="inline-grid p-4 bg-red-600 text-white w-auto rounded-md">Get a Quote</a>
+        </div>
+    </section>
+
+    <section id="FooterSection" class="bg-gray-950 text-white p-8">
+        <footer id="Fotter-Container" class="grid grid-cols-4 grid-rows-1 gap-x-12">
+            <div id="FooterContent">
+                <div id="TheDrainSurgeonLogo" class="flex flex-col gap-y-2">
+                    <img src="./public/images/[Cropped] drain-surgeon-logo.png" alt="The Drain Surgeon Logo"
+                        class="w-52">
+                    <p>"Any leak, burst pipe, or drain replacement, we are there for you." - The Drain Surgeon</p>
+                </div>
+            </div>
+
+            <div id="InternalLinks" class="flex flex-col gap-y-2">
+                <!-- Links not found at the top of the website. -->
+                <a href="/blog">Blog</a>
+                <a href="/videoTutorials">Video tutorials</a>
+                <a href="/pressKit">Press Kit</a>
+                <a href="/howItWorks">How It Works</a>
+                <a href="/privacyPolicy">Privacy Policy</a>
+                <a href="/termsOfService">Terms Of Service</a>
+            </div>
+            </div>
+
+            <div id="ExternalLinks" class="flex flex-col gap-y-2">
+                <div id="SocialMediaLinks" class="flex flex-col gap-y-2">
+                    <!-- Facebook Link -->
+                    <a href="https://www.facebook.com/thedrainsurgeon" target="_blank"
+                        class="flex flex-row items-center flex-nowrap gap-x-2">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                            class="bi bi-facebook w-5 h-5" viewBox="0 0 16 16">
+                            <path
+                                d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951" />
+                        </svg>
+                        <p class="mb-0.5">The Drain Surgeon Plumber</p>
+                    </a>
+                    <!-- Instagram Link -->
+                    <a href="https://www.instagram.com/thedrainsurgeonplumber/" target="_blank" class="flex flex-row items-center gap-x-2">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                            class="bi bi-instagram w-5 h-5" viewBox="0 0 16 16">
+                            <path
+                                d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.9 3.9 0 0 0-1.417.923A3.9 3.9 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.9 3.9 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.9 3.9 0 0 0-.923-1.417A3.9 3.9 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599s.453.546.598.92c.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.5 2.5 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.5 2.5 0 0 1-.92-.598 2.5 2.5 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233s.008-2.388.046-3.231c.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92s.546-.453.92-.598c.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92m-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217m0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334" />
+                        </svg>
+                        <p class="mb-0.5">@thedrainsurgeonplumber</p>
+                    </a>
+                </div>
+
+                <div id="Email" class="flex flex-row items-center gap-x-2">
+                    <span class="material-design-symbols"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" height="24px" width="24px" fill="#FFFFFF"><path d="M4,20q-0.82,0-1.41-0.59T2,18V6Q2,5.18 2.59,4.59T4,4H20q0.83,0 1.41,0.59Q22,5.18 22,6V18q0,0.82-0.59,1.41T20,20H4Zm8-7L4,8V18H20V8l-8,5Zm0-2l8-5H4l8,5ZM4,8V6V8V18V8Z"/></svg></span>
+                    <p class="mb-0.5">info@drainsurgeon.co.za</p>
+                </div>
+                
+                <div id="EmergencyPhoneNumber" class="flex flex-row items-start gap-x-2">
+                    <span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" height="24px" width="24px" fill="#FFFFFF" class="mt-0.5"><path d="M10.5,17q-0.82,0-1.41-0.59T8.5,15V9q0-0.83 0.59-1.41T10.5,7h3q0.83,0 1.41,0.59T15.5,9v6q0,0.82-0.59,1.41T13.5,17h-3ZM1,17V15H5V13H3q-0.82,0-1.41-0.59T1,11V9Q1,8.17 1.59,7.59T3,7H7V9H3v2H5q0.83,0 1.41,0.59Q7,12.18 7,13v2q0,0.82-0.59,1.41T5,17H1Zm16,0V15h4V13H19q-0.82,0-1.41-0.59T17,11V9q0-0.83 0.59-1.41T19,7h4V9H19v2h2q0.83,0 1.41,0.59Q23,12.18 23,13v2q0,0.82-0.59,1.41T21,17H17Zm-6.5-2h3V9h-3v6Z"/></svg></span>
+                    <p class="">+27 86 175 8623 (For Emergencies in Pretoria)</p>
+                </div>
+
+                <div id="AppLinks" class="flex flex-row gap-x-2">
+                    <!-- Google Play Link -->
+                    <a href="/googlePlaystoreLink" target="_blank">
+                        <img src="./public/logos/GetItOnGooglePlay_Badge_Web_color_English.svg" alt="Google Play Badge Link" class="h-8">
+                    </a>
+                    <!-- Apple App Store Link -->
+                    <a href="https://apps.apple.com/za/app/the-surgeon-group/id1441305561" target="_blank">
+                        <img src="./public/logos/Download_on_the_App_Store_Badge_US-UK_RGB_blk_092917.svg" alt="Apple App Store Badge Link" class="h-8">
+                    </a>
+                </div>
+            </div>
+
+            <div id="OperatingTimes">
+                <ul>
+                    <li></li>
+                </ul>
+
+                <div class="flex flex-col gap-y-2">
+                     <p>Copyright © 2026 - The Drain Surgeon</p>
+                     <span>Created By Oarabile Pako Tone - ST10317311 - Rosebank International (RI)</span>
+                </div>
+            </div>
+            <div>
+
+        </footer>
+    </section>
+
+    <!-- JQuery javascript file. -->
+    <script src="./public/js/jquery-4.0.0.js"></script>
+    <!-- Lightbox Javascript file. -->
+    <script src="./public/lightbox2-2.12.0/src/js/lightbox.js"></script>
+</body>
+
+</html>
